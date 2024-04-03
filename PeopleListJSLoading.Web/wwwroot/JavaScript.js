@@ -46,6 +46,7 @@
 
     $("#update").on('click', function () {
         const updatedPerson = {
+            //id = //add id, i think that why wastnt working, didnt put in id. to tired to think how now
             firstName: $("#first-name-edit").val(),
             lastName: $("#last-name-edit").val(),
             age: $("#age-edit").val()
