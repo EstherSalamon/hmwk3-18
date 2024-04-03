@@ -51,6 +51,8 @@
             age: $("#age-edit").val()
         };
 
+
+        //issues happening here. my updatedPerson is right, but it's not updating. already checked db, controller, issue not there
         $.post('/home/updateperson', updatedPerson, function () {
             refreshTable();
             clearModal();
