@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleListJSLoading.Web", "PeopleListJSLoading.Web\PeopleListJSLoading.Web.csproj", "{3FE24D8A-7FD9-4B7A-BB81-A192D2AB9F5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleListJSLoading.Data", "PeopleListJSLoading\PeopleListJSLoading.Data.csproj", "{FD162D24-946B-440C-B49D-502F2B4758F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FE24D8A-7FD9-4B7A-BB81-A192D2AB9F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE24D8A-7FD9-4B7A-BB81-A192D2AB9F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE24D8A-7FD9-4B7A-BB81-A192D2AB9F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE24D8A-7FD9-4B7A-BB81-A192D2AB9F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD162D24-946B-440C-B49D-502F2B4758F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD162D24-946B-440C-B49D-502F2B4758F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD162D24-946B-440C-B49D-502F2B4758F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD162D24-946B-440C-B49D-502F2B4758F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A0428EE-AD7A-4623-8894-61441FF57987}
+	EndGlobalSection
+EndGlobal
