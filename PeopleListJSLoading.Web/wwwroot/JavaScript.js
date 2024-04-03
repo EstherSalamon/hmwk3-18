@@ -13,6 +13,7 @@
         const id = $(this).data('id');
 
         $.get(`/home/getbyid?id=${id}`, function (person) {
+            $("#id-for-edit").val(id);
             $("#first-name-edit").val(person.firstName);
             $("#last-name-edit").val(person.lastName);
             $("#age-edit").val(person.age);
@@ -46,14 +47,12 @@
 
     $("#update").on('click', function () {
         const updatedPerson = {
-            //id = //add id, i think that why wastnt working, didnt put in id. to tired to think how now
+            id: $("#id-for-edit").val(),
             firstName: $("#first-name-edit").val(),
             lastName: $("#last-name-edit").val(),
             age: $("#age-edit").val()
         };
 
-
-        //issues happening here. my updatedPerson is right, but it's not updating. already checked db, controller, issue not there
         $.post('/home/updateperson', updatedPerson, function () {
             refreshTable();
             clearModal();
